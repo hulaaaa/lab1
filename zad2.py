@@ -10,5 +10,6 @@ def decrypt(text, shift):
 
 text = input("Szyfrogram: ")
 
+
 for shift in range(1, 26):
     print(f"Klucz {shift:2d}: {decrypt(text, shift)}")
